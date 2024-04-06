@@ -1,0 +1,127 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+span {
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 6px dotted #94dcac;
+  color: #4e9f3d;
+}
+.cuidados-pet {
+  display: flex;
+}
+
+.servicos-item {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/pet-animado2.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.servicos-item2 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/pet-animado4.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.servicos-item3 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/crazyDog.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.servicos-item4 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/scaryDog.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.servicos-item5 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/happydog.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.servicos-item6 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/happydog.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.servicos-item7 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/dogrun.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.servicos-item8 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/fatcat.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.cuidados {
+  width: 50%;
+}
+.cuidados {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cuidados h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+.cuidados p {
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.servicos-item2 {
+  width: 450px;
+  height: 380px;
+  background-image: url(/img/pet-img/pet-animado4.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.separacao {
+  background-color: #94dcac;
+  width: 100%;
+  height: 50px;
+
+  text-align: center;
+}
+
+.separacao h3 {
+  animation: pulse 2s infinite;
+  text-align: center;
+}
